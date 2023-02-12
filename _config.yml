@@ -1,17 +1,17 @@
 # Site settings
-title: Website Title
-description: Website short description
+title: Welcome to Wenbo ZHANG's Home
+description: HKUST(GZ)
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
-url: "https://yk-liu.github.io"  
+url: "https://wenboer123.github.io"  
 
 
 # GitHub User settings
-username: Username
-github_username: github_username
-user_description: user_description
-user_title: user_title
-email: 
+username: WenboZHANG
+github_username: Wenboer123
+user_description: I am a psychology students.
+user_title: MPhil
+email: wzhang@connect.hkust-gz.edu.cn
 
 # Blog Author settings
 author:
