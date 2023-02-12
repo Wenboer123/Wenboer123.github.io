@@ -2,31 +2,33 @@
 layout: home
 ---
 <div class="user-details">
-<h2> Me and this website </h2>
+<h2> About Me</h2>
 <p style="text-align: justify;"> I graduated from Psychology at UIC in 2022, during which I developed my empathy and minored in business knowledge. I love trying new things, and I started my business with my partners in 2019. You can check out our startup <a href="http://www.25doer.com">here</a>. At the same time, I am keen on writing, you can watch the articles I wrote <a href="https://mp.weixin.qq.com/s/PpS9J6n2d9sHbS8XnWU-FA">here</a>. </p>
 <div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
-	<h3> Analytics </h3>
-	{% include clustrmap.html style="js" %}
-	<p> <small> If you are not seeing a map, please disable Ad block </small></p>
+	
+	<h3> Connect Me </h3>
+	<p> <small> Tel: 13555313399 </small></p>
+	<p> <small> E-mail: wzhang400@connect.hkust-gz.edu.cn </small></p>
 </div>
+	
 </div>
-<div class="permlinks">
-<h2>Recent Posts</h2>
-<dl>
-	{% for post in site.posts limit:3 %}
-	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i><a href="{{ post.url }}">{{ post.title }}</a> &nbsp;{% include status-indicator.html status=post.status%}
-	{% if post.description %}
- <dd style="text-align: justify">{{ post.description | markdownify }}
-    </dd>
-	{% endif %}
-	{% endfor %}
-	<p>... <a href="/blog">Full Posts List</a> </p>
-</dl>
 
-<h2>Upcoming Posts (edit me at /index.html )</h2>
+<div class="permlinks">
+	
+<h2>Past Experience/Reward</h2>
+	
 <ul>
-	<li>Post 1</li>
-	<li>Post 2</li>
+	<li>2022.06 ForChange - Course Design</li>
+	<li>2021.01 48H Global Future Education Design Competition - 3nd place</li>
+	<li>2020.08 Guangzhou Hui Ai Hospital - Clinical psychology Department</li>
+	<li>2019.08 UIC Scholarship</li>
+</ul>
+
+<h2>Current Focus</h2>
+<ul>
+	<li>Unmanned Delivery Service for HKUST(GZ)</li>
+	<li>WeChat Account:'是文博儿不是文博'</li>
+	<li>Intelligent Transportation & Human Factor</li>
 </ul>
 
 </div >
